@@ -1,0 +1,158 @@
+.artist-detail-container {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .artdet-back-button {
+    background-color: #8594e4;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artdet-back-button:hover {
+    background-color: white;
+    border: 1px solid #A3B0F5;
+    color: #A3B0F5;
+  }
+  
+  .artdet-artist-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
+  .artdet-artist-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+  }
+  
+  .artdet-no-artist-image {
+    height: 250px;
+    width: 250px;
+    background-color: #ccc;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+  }
+  
+  .artdet-artist-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .artdet-favorite-button {
+    background-color: #8594e4;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+  }
+  
+  .artdet-favorite-button:hover {
+    background-color: white;
+    border: 1px solid #A3B0F5;
+    color: #A3B0F5;
+  }
+  
+  .artdet-remove-favorite-button {
+    background-color: #FF4C4C;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+  }
+  
+  .artdet-remove-favorite-button:hover {
+    background-color: white;
+    border: 1px solid #FF6B6B;
+    color: #FF6B6B;
+  }
+  
+  .artdet-albums-section {
+    margin-top: 5px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .artdet-albums-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .artdet-album-item {
+    display: flex;
+    justify-content: row;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .artdet-album-item:hover {
+    background-color: #f0f0f0;
+    color: #A3B0F5;
+  }
+  
+  .artdet-album-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+  
+  .artdet-album-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .artdet-album-name {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .artdet-album-year {
+    font-size: 16px;
+    color: #666;
+    margin-left: 0;
+    align-self: flex-start;
+    margin-bottom: 0;
+  }
