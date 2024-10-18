@@ -1,0 +1,54 @@
+.favartist-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    padding: 10px;
+  }
+  
+  .favartist-artist-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 130px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .favartist-artist-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .favartist-artist-image {
+    width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    object-fit: cover;
+  }
+  
+  .favartist-no-artist-image {
+    width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 0;
+  }
+  
+  .favartist-artist-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .favartist-no-favorites {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    width: 100%;
+  }
