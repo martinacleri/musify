@@ -1,0 +1,140 @@
+.album-detail-container {
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  .albdet-back-button {
+    background-color: #8594e4;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .albdet-back-button:hover {
+    background-color: white;
+    border: 1px solid #A3B0F5;
+    color: #A3B0F5;
+  }
+  
+  .albdet-album-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0;
+  }
+  
+  .albdet-album-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .albdet-album-info {
+    text-align: left;
+  }
+  
+  .albdet-album-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .albdet-artist-name {
+    font-size: 22px;
+    color: #333;
+    margin-top: 3px;
+    font-style: italic;
+  }
+  
+  .albdet-album-release-date {
+    font-size: 18px;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .albdet-track-list {
+    width: 100%;
+    max-width: 1440px;
+    margin-top: 5px;
+  }
+  
+  .albdet-songs-title {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .albdet-track-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .albdet-track-item:last-child {
+    border-bottom: none;
+  }
+  
+  .albdet-track-name {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .albdet-favorite-button {
+    background-color: #8594e4;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .albdet-favorite-button:hover {
+    background-color: white;
+    border: 1px solid #A3B0F5;
+    color: #A3B0F5;
+  }
+  
+  .albdet-remove {
+    background-color: #FF4C4C;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .albdet-remove:hover {
+    background-color: white;
+    border: 1px solid #FF6B6B;
+    color: #FF6B6B;
+  }
+  
+  .albdet-no-album-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+  }
