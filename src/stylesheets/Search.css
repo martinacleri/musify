@@ -1,0 +1,100 @@
+.search-container {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    min-height: 100vh;
+  }
+    
+  .app-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #8594e4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+    
+  .search-section {
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  .search-bar {
+    width: 60%;
+  }
+    
+  .search-input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;    
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+    
+  .search-input:focus {
+    border-color: #8594e4;
+  }
+    
+  .search-fav-artists-section {
+    text-align: center;
+    width: 39%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+    
+  .search-fav-artists-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+    
+  .search-button-section {
+    text-align: center;
+  }
+    
+  .search-fav-songs-button {
+    font-weight: bold;
+    background-color: #8594e4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .logout-button {
+    font-weight: bold;
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+    
+  .search-fav-songs-button:hover {
+    background-color: white;
+    border: 1px solid #A3B0F5;
+    color: #A3B0F5;
+  }
+  
+  .logout-button:hover {
+    background-color: white;
+    border: 1px solid #FF6B6B;
+    color: #FF6B6B;
+  }
